@@ -22,7 +22,7 @@ const projects = [
     img: project01,
     imgBig: project01Big,
     gitHubLink: 'https://github.com/vwital/react-portfolio',
-    deploy: 'https://vwital.github.io/react-portfolio/',
+    deploy: 'https://vwital.netlify.app',
   },
   {
     title: 'eCommerce app',

@@ -5,7 +5,12 @@ function Certificates() {
   return certificates.map((certificate, index) => {
     return (
       <>
-        <a href={certificate.certificate} target="_blank" rel="noreferrer">
+        <a
+          key={index}
+          href={certificate.certificate}
+          target="_blank"
+          rel="noreferrer"
+        >
           <li className="certificate">
             <img
               src={certificate.certificateImg}

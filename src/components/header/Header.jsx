@@ -13,7 +13,11 @@ function Header() {
         <div className="header__text">
           <p></p>
         </div>
-        <a href="#!" className="btn">
+        <a
+          target="_blank"
+          href="./../src/assets/pdf/resume.pdf"
+          className="btn"
+        >
           Download CV
         </a>
       </div>
