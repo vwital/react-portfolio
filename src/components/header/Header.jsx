@@ -1,4 +1,5 @@
 import './style.css';
+import resume from './../../assets/pdf/resume.pdf';
 
 function Header() {
   return (
@@ -13,11 +14,7 @@ function Header() {
         <div className="header__text">
           <p></p>
         </div>
-        <a
-          target="_blank"
-          href="./../src/assets/pdf/resume.pdf"
-          className="btn"
-        >
+        <a target="_blank" href={resume} className="btn">
           Download CV
         </a>
       </div>
