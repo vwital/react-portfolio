@@ -12,7 +12,7 @@ function Contacts() {
           <li className="content-list__item">
             <h2 className="title-2">Telegram </h2>
             <p>
-              <a href="tel:+79051234567">+375444800968</a>
+              <a href="tel:">https://t.me/wutalich</a>
             </p>
           </li>
           <li className="content-list__item">
